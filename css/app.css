@@ -1,0 +1,35 @@
+/**
+ *  app.css
+ *  Application specific overrides
+ */
+ 
+ .contain-to-grid {
+   background-color: orange;
+ }
+ 
+ .top-bar {
+  background-color: orange;
+ }
+ 
+ .top-bar .name h1 a{
+ font-weight: bold;
+ background-color: orange;
+ }
+ 
+ .top-bar .title-area {
+   background-color: orange;
+ }
+ 
+ .top-bar-section ul li a{
+ font-weight: bold;
+ }
+ 
+ .top-bar-section ul .dropdown li a{
+ font-weight: bold;
+ }
+ 
+ 
+ 
+ 
+
+ 

@@ -1,0 +1,59 @@
+#oroheader{
+background-image: url(../img/RORLetterhead120pxverticalslice.jpg);
+background-repeat: repeat-x;
+/* hide overflow:hidden from IE5/Mac */ 
+/* \*/ 
+overflow: hidden; 
+/* */ }
+
+#oroheader {
+position:relative; 
+width: 100%;
+/*
+height: 120px;
+z-index:500;
+background:#fff url(logo.gif) no-repeat left top;
+*/
+}
+
+#oroeader a img{border: 0;}
+
+/* Don't use this
+#headcontent {height:85px; background:#fff; margin-left:200px; position:relative; }
+*/
+#oroeadcontent { }
+/*
+#sidebar {
+width: 100%;
+float:left;
+padding:10px;
+background:#aaa;
+}
+*/
+
+#orohead {position:fixed; margin:0; top:0; right:18px; display:block; width:100%; height:100px; 
+ font-size:4em; z-index:5; color:#ffffff;}
+
+#oroheadleft{
+float: left;
+z-index: 5;
+}
+#oroheadcenter{
+position: fixed; top 0px; left: 280px;
+z-index: 5;
+}
+#oroheadcenter img{
+height: 120px;
+}
+#oroheadcenter a img{border: 0;}
+
+#oroheadright{
+z-index: 5;
+}
+
+img.orocenter{display:block; margin-left:auto; margin-right:auto;}
+
+/* for centering the logo.
+img.center{display:block; margin-left:auto; margin-right:auto;}
+*/
+
